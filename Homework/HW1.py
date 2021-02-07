@@ -1,3 +1,4 @@
+#Question 1
 NumList = []
  
 Number = int(input("How many elements in list :- "))
@@ -32,3 +33,9 @@ else:
     NumList[i]=NumList[len(NumList)//2+1+i]
     NumList[len(NumList)//2+1+i]=temp
 print(NumList)
+
+
+#Question2
+
+n=int(input())
+print([x for x in range(n+1) if x%2==0])
